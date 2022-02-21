@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lorem generator by count</title>
+  </head>
+  <body>
+    <a href="index.html" class="link-btn">By Paragraphs</a>
+
+    <div class="container">
+      <h2>Let's get some lorem ipsum</h2>
+      <form class="form-container">
+        <label>Words :</label>
+        <input
+          type="number"
+          id="amount"
+          name="amount"
+          placeholder="2"
+          min="0"
+          max="550"
+          value=""
+        />
+        <input
+          type="button"
+          class="words-btn"
+          name="word-generate"
+          value="generate"
+        />
+      </form>
+    </div>
+    <section class="paragraphs"></section>
+    <script src="bywords.js"></script>
+  </body>
+</html>
